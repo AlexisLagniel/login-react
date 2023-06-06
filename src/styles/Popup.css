@@ -1,0 +1,23 @@
+.popupContainer {
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.close-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.close-icon img{
+    cursor: pointer;
+}
+
+p {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #2148C0;
+}

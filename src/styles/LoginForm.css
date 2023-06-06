@@ -1,0 +1,94 @@
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 350px;
+}
+
+.input-container {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 4px;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.input-container img {
+  height: 40%;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.cart-icon {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent; 
+  color: white;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 50%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  height: 45px;
+  border-radius: 4px;
+  color: #2148C0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: right;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+h4 {
+  text-align: left; 
+  font-weight: 400;
+}
+
+.errors {
+  color: red;
+}
+
+.validation {
+  color: green;
+}
+
+@media (max-width: 576px) {
+  /* CSS rules specific to extra small devices (xs) */
+  form {
+      width: 250px;
+  }
+  h3, h4 {
+      font-size: 12px;
+  }
+}

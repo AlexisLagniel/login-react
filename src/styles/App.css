@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.vector {
+ position: absolute;
+ top: 0;
+ right: 0; 
+}
+
+.circle-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.circle{
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle:nth-child(1) {
+  width: 200px;
+  height: 200px;
+  bottom: -100px;
+  left: -100px;
+  z-index: 3;
+  background-color: #264ECA;
+}
+
+.circle:nth-child(2) {
+  width: 350px;
+  height: 350px;
+  bottom: -175px;
+  left: -175px;
+  z-index: 2;
+  background-color: #244BC5  ;
+}
+
+.circle:nth-child(3) {
+  width: 600px;
+  height: 600px;
+  bottom: -300px;
+  left: -300px;
+  z-index: 1;
+  background-color: #264ECA;
+}
+
+@media (max-width: 1337px) {
+  .vector {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .vector {
+    display: none;
+    width: 50%;
+  }
+  .circle-container{
+    display: none;
+  }
+}
